@@ -1,0 +1,28 @@
+{
+  "name": "endo",
+  "description": "Endo Framework",
+  "version": "2.0.3",
+  "homepage": "https://github.com/evapuffin/endo",
+  "author": "Eva Wilkisson",
+  "license": "",
+  "private": true,
+  "devDependencies": {
+    "connect-livereload": "^0.6.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-connect": "^5.0.0",
+    "gulp-install": "^1.1.0",
+    "gulp-livereload": "^4.0.1",
+    "gulp-open": "^2.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-server-livereload": "^1.9.2",
+    "gulp-sourcemaps": "^2.6.3",
+    "livereload-js": "^2.4.0"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "gulp-cli": "^2.0.1",
+    "material-icons": "^0.3.0"
+  }
+}

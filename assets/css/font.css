@@ -1,0 +1,126 @@
+
+@font-face {
+font-family:"benton-sans";
+src:url("benton/benton1.woff2") format("woff2"),url("benton/benton1.woff") format("woff"),url("benton/benton1.otf") format("opentype");
+font-style:normal;font-weight:300;
+}
+
+@font-face {
+font-family:"benton-sans";
+src:url("benton/benton2.woff2") format("woff2"),url("benton/benton2.woff") format("woff"),url("benton/benton2.otf") format("opentype");
+font-style:italic;font-weight:300;
+}
+
+@font-face {
+font-family:"benton-sans";
+src:url("benton/benton3.woff2") format("woff2"),url("benton/benton3.woff") format("woff"),url("benton/benton3.otf") format("opentype");
+font-style:italic;font-weight:500;
+}
+
+@font-face {
+font-family:"benton-sans";
+src:url("benton/benton4.woff2") format("woff2"),url("benton/benton4.woff") format("woff"),url("benton/benton4.otf") format("opentype");
+font-style:normal;font-weight:500;
+}
+
+@font-face {
+font-family:"benton-sans";
+src:url("benton/benton5.woff2") format("woff2"),url("benton/benton5.woff") format("woff"),url("benton/benton5.otf") format("opentype");
+font-style:normal;font-weight:600;
+}
+
+@font-face {
+font-family:"benton-sans";
+src:url("benton/benton6.woff2") format("woff2"),url("benton/benton6.woff") format("woff"),url("benton/benton6.otf") format("opentype");
+font-style:normal;font-weight:700;
+}
+
+@font-face {
+    font-family:'leiturasans1';
+    src: url('leitura/leiturasans-italic1-webfont.woff2') format('woff2'),
+         url('leitura/leiturasans-italic1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'leiturasans2';
+    src: url('leitura/leiturasans-italic2-webfont.woff2') format('woff2'),
+         url('leitura/leiturasans-italic2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* 
+@font-face {
+font-family:"benton-sans";
+src:url("https://use.typekit.net/af/21f23e/00000000000000003b9b2cf1/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/21f23e/00000000000000003b9b2cf1/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/21f23e/00000000000000003b9b2cf1/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+font-style:normal;font-weight:300;
+}
+
+@font-face {
+font-family:"benton-sans";
+src:url("https://use.typekit.net/af/18cbc5/00000000000000003b9b2cf2/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff2"),url("https://use.typekit.net/af/18cbc5/00000000000000003b9b2cf2/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff"),url("https://use.typekit.net/af/18cbc5/00000000000000003b9b2cf2/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("opentype");
+font-style:italic;font-weight:300;
+} 
+
+@font-face {
+font-family:"benton-sans";
+src:url("https://use.typekit.net/af/8548ea/00000000000000003b9b2cf6/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3") format("woff2"),url("https://use.typekit.net/af/8548ea/00000000000000003b9b2cf6/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3") format("woff"),url("https://use.typekit.net/af/8548ea/00000000000000003b9b2cf6/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3") format("opentype");
+font-style:italic;font-weight:500;
+} 
+
+@font-face {
+font-family:"benton-sans";
+src:url("https://use.typekit.net/af/738ece/00000000000000003b9b2cf5/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/738ece/00000000000000003b9b2cf5/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/738ece/00000000000000003b9b2cf5/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
+font-style:normal;font-weight:500;
+} 
+
+@font-face {
+font-family:"benton-sans";
+src:url("https://use.typekit.net/af/bb6c4e/00000000000000003b9b2cf8/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff2"),url("https://use.typekit.net/af/bb6c4e/00000000000000003b9b2cf8/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff"),url("https://use.typekit.net/af/bb6c4e/00000000000000003b9b2cf8/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("opentype");
+font-style:normal;font-weight:600;
+} 
+
+@font-face {
+font-family:"benton-sans";
+src:url("https://use.typekit.net/af/343e47/00000000000000003b9b2cf9/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/343e47/00000000000000003b9b2cf9/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/343e47/00000000000000003b9b2cf9/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-style:normal;font-weight:700;
+} */
+
+/* @font-face {
+font-family:"benton-sans";
+src:url("https://use.typekit.net/af/2de11d/00000000000000003b9b2cfa/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/2de11d/00000000000000003b9b2cfa/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/2de11d/00000000000000003b9b2cfa/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-style:italic;font-weight:700;
+} */
+
+.tk-benton-sans { font-family: "benton-sans",sans-serif; }
+
+@font-face {
+    font-family: "Material Icons";
+    font-style: normal;
+    font-weight: 400;
+    src: url("materialicons/MaterialIcons-Regular.eot");
+    /* For IE6-8 */
+    src: local("materialicons/Material Icons"), local("materialicons/MaterialIcons-Regular"), url("materialicons/MaterialIcons-Regular.woff2") format("woff2"), url("materialicons/MaterialIcons-Regular.woff") format("woff"), url("materialicons/MaterialIcons-Regular.ttf") format("truetype");
+  }
+  
+  .material-icons {
+    font-family: "Material Icons";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+  }
+  

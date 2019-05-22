@@ -1,0 +1,318 @@
+$transition-base: all .2s ease;
+
+.space-25 {
+    height: 25px;
+    display: block;
+}
+
+p {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+// button {
+//     &.btn-example {
+//         background-color: $endo-purple-dark;
+//     }
+// }
+.container-fluid {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+}
+
+.page-header {
+    &.header-small {
+        background-position-y: 90%;
+    }
+}
+
+.header-filter {
+    &:after {
+        background: $endo-logo-grey;
+        //         background: linear-gradient(45deg, rgba($endo-logo-grey, .88) 0%, rgba($endo-grey, .31) 100%);
+        background: linear-gradient(45deg, rgba(darken($endo-logo-grey, 10%), .5) 0%, rgba(darken($endo-grey, 5%), .2) 100%);
+        // background: -moz-linear-gradient(135deg, rgba($endo-logo-grey, .88) 0%, rgba($endo-grey, .31) 100%);
+        // background: -webkit-linear-gradient(135deg, rgba($endo-logo-grey, .88) 0%, rgba($endo-grey, .31) 100%);
+    }
+}
+
+// STYLES FOR HOME PAGE
+.home-page {
+
+    .about-description {
+        padding: 70px 0px 0px 0px;
+    }
+
+    .page-header.header-small {
+        height: 75vh;
+    }
+
+    // .header-filter {
+    //     &:after {
+    //         background: $endo-logo-grey;
+    //         background: linear-gradient(45deg, rgba($endo-logo-grey, .88) 0%, rgba($endo-grey, .31) 100%);
+    //     }
+    // }
+}
+
+.ruth-message {
+
+    /*    &:after {
+        background: $endo-purple-light;
+        background: linear-gradient(135deg, rgba($endo-purple-light, .88) 0%, rgba($endo-purple-dark, .31) 100%);
+        background: -moz-linear-gradient(135deg, rgba($endo-purple-light, .88) 0%, rgba($endo-purple-dark, .31) 100%);
+        background: -webkit-linear-gradient(135deg, rgba($endo-purple-light, .88) 0%, rgba($endo-purple-dark, .31) 100%);
+    }
+*/
+    h5 {
+        font-size: 1.25rem
+    }
+}
+
+.collaboration {
+    .nav-pills:not(.flex-column) .nav-item+.nav-item:not(:first-child) {
+        margin-left: 16px;
+    }
+}
+
+
+.description,
+.footer-big p {
+    color: $endo-logo-grey;
+}
+
+textarea.resizable {
+    height: auto;
+    resize: vertical;
+    line-height: 1.2 !important;
+    padding-bottom: .5rem;
+}
+
+.modal {
+    .modal-dialog {
+        &.modal-contact {
+            max-width: 500px;
+
+            .modal-header {
+                .close {
+                    color: $white-color;
+                    top: -14px;
+                    right: 10px;
+                    text-shadow: none;
+                    position: relative;
+                }
+            }
+
+            .input-group.textarea {
+                .input-group-text {
+                    align-items: flex-start;
+                }
+
+            }
+
+        }
+    }
+}
+
+.card>* {
+    flex: 0 0 auto;
+}
+
+.card-avatar {
+    align-self: center;
+}
+
+.colored-shadow {
+    display: none;
+}
+
+h5.description {
+    color: #a2ad00 !important;
+}
+
+h4.card-title {
+    font-weight: 600;
+    color: #424242;
+}
+
+h5.card-category.card-category-social {
+    color: #e87722;
+}
+
+h3.card-title a {
+    font-family: leiturasans2;
+    color: #a2ad00;
+}
+
+th.text-info.font-weight-normal {
+    font-family: leiturasans2;
+}
+
+.nav-pills .nav-item .nav-link.active {
+    background-color: #e87722;
+}
+
+.resources-page {
+    .filter-btn {
+        cursor: pointer;
+    }
+
+    input.form-control::placeholder {
+        color: #777;
+    }
+
+    // .form-control,
+    // .is-focused .form-control {
+    //     // background-image: linear-gradient(to top, $brand-primary 2px, rgba(darken($brand-primary,20%), 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba($brand-primary, 0) 1px);
+    // }
+
+    .form-control:focus {
+        border-color: $brand-primary;
+    }
+}
+
+.has-danger.is-filled {
+    .form-control {
+        background-image: linear-gradient(to top, #007396 2px, rgba(0, 115, 150, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px) !important;
+    }
+
+    &.is-focused {
+
+        .form-control,
+        .form-control:focus {
+            background-image: linear-gradient(to top, #007396 2px, rgba(0, 115, 150, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px) !important;
+        }
+    }
+}
+
+.has-danger:not(.is-filled) {
+
+    input::placeholder,
+    textarea::placeholder {
+        color: $brand-danger;
+    }
+
+    .form-control {
+        background-image: linear-gradient(0deg, $brand-danger 2px, rgba(244, 67, 54, 0) 0), linear-gradient(0deg, $brand-danger 1px, hsla(0, 0%, 82%, 0) 0)
+    }
+
+
+}
+
+.about-cards {
+    .card {
+        .card-category {
+            min-height: 38px;
+        }
+
+        &.card-profile {
+            .card-avatar img {
+                min-height: 130px;
+                min-width: 130px;
+            }
+        }
+
+        .phone-number {
+            color: $text-muted;
+        }
+    }
+}
+
+.button-list {
+    .nav-item {
+        margin-bottom: 16px;
+    }
+}
+
+#gethelp {
+    .card .card-header-primary {
+        background-image: url('../../assets/img/endo/askith.jpg');
+        background-position: 10% 54%;
+        height: 140px;
+    }
+}
+
+// .card.card-profile {
+//     min-height: 300px !important;
+// }
+
+.breadcrumb-item.active {
+    color: #e87722;
+}
+
+.breadcrumb {
+    background-color: #fff;
+    padding-top: 16px;
+}
+
+.prod-img {
+    p {
+        line-height: 155px;
+    }
+}
+
+h3.title.text-center {
+    font-size: 1.65rem;
+}
+
+body {
+
+    .page-header {
+        &.header-small {
+            // height: 45vh;
+            // min-height: 290px;
+            height: auto;
+            padding: 5rem 0;
+            min-height: auto;
+        }
+    }
+
+    &.home-page {
+        .page-header {
+            &.header-small {
+                height: 55vh;
+                min-height: 350px;
+            }
+        }
+    }
+
+    // &.contact-page {
+    //     .page-header {
+    //         &.header-small {
+    //             height: auto;
+    //             padding: 5rem 0;
+    //         }
+    //     }
+    // }
+}
+
+.navbar-nav {
+    .btn.btn-sm {
+        padding: 0.41rem 1.25rem 0.40625rem 1.25rem;
+    }
+}
+
+.row {
+    &.about-cards,
+    &.uc-cards {
+        padding-top: 60px;
+        .popover-wrap {
+            display: block;
+            cursor: pointer;
+        }
+    }
+}
+.usecases{
+    margin-bottom: 3rem;
+}
+
+.popover {
+    max-width: 550px;
+}
+
+.navbar .navbar-brand>img {
+    width: 100px;
+}
+@import "components/global";
+@import "components/cards";
+@import "components/footer";

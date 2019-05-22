@@ -1,0 +1,78 @@
+.card {
+
+    .card-header-primary,
+    &.bg-primary,
+    &.card-rotate.bg-primary .front,
+    &.card-rotate.bg-primary .back {
+        // background: linear-gradient(60deg, $purple-400, $purple-700);
+        background: linear-gradient(60deg, $brand-primary, darken($brand-primary, 10%));
+    }
+
+    .card-header-info,
+    &.bg-info,
+    &.card-rotate.bg-info .front,
+    &.card-rotate.bg-info .back {
+        // background: linear-gradient(60deg, $cyan-400, $cyan-700);
+        background: linear-gradient(60deg, $brand-info, darken($brand-info, 10%));
+    }
+
+    .card-header-success,
+    &.bg-success,
+    &.card-rotate.bg-success .front,
+    &.card-rotate.bg-success .back {
+        // background: linear-gradient(60deg, $green-400, $green-700);
+        background: linear-gradient(60deg, $brand-success, darken($brand-success, 10%));
+
+    }
+
+    .card-header-warning,
+    &.bg-warning,
+    &.card-rotate.bg-warning .front,
+    &.card-rotate.bg-warning .back {
+        // background: linear-gradient(60deg, $orange-400, $orange-700);
+        background: linear-gradient(60deg, $brand-warning, darken($brand-warning, 10%));
+    }
+
+    .card-header-danger,
+    &.bg-danger,
+    &.card-rotate.bg-danger .front,
+    &.card-rotate.bg-danger .back {
+        // background: linear-gradient(60deg, $red-400, $red-700);
+        background: linear-gradient(60deg, $brand-danger, darken($brand-danger, 10%));
+    }
+
+    .card-header-accent,
+    &.bg-accent,
+    &.card-rotate.bg-accent .front,
+    &.card-rotate.bg-accent .back {
+        // background: linear-gradient(60deg, $pink-400, $pink-700);
+        background: linear-gradient(60deg, $brand-accent, darken($brand-accent, 10%));
+    }
+
+    .card-header-primary {
+        @include shadow-big-color($brand-primary);
+
+        //@include shadow-8dp-color($brand-primary);
+        //@include shadow-16dp-color($brand-primary);
+    }
+
+    .card-header-danger {
+        @include shadow-big-color($brand-danger);
+    }
+
+    .card-header-accent {
+        @include shadow-big-color($brand-accent);
+    }
+
+    .card-header-warning {
+        @include shadow-big-color($brand-warning);
+    }
+
+    .card-header-info {
+        @include shadow-big-color($brand-info);
+    }
+
+    .card-header-success {
+        @include shadow-big-color($brand-success);
+    }
+}

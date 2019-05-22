@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!-- Favicons -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <link rel="apple-touch-icon" href="assets/img/favicon.ico">
+    <title>FAQs</title>
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" href="assets/css/font.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/material-kit.css?v=2.0.3">
+    <!-- Documentation extras -->
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link href="assets/assets-for-demo/demo.css" rel="stylesheet" />
+    <link href="assets/assets-for-demo/vertical-nav.css" rel="stylesheet" />
+
+    <style>
+        .card-collapse .card-header a[aria-expanded="true"] {
+    color: #a8ad00;
+}
+.card-collapse .card-header a:hover{
+    color: #a8ad00;
+
+}
+.card-collapse .card-header a i {
+    color: #a8ad00;
+}
+    </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-98210761-4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-98210761-4');
+    </script>
+
+</head>
+
+<body class="resources-page">
+
+    <nav class="navbar navbar-light fixed-top navbar-expand-lg " color-on-scroll="100" id="sectionsNav">
+        <!-- LOADS FROM _NAVBAR.HTML -->
+    </nav>
+
+    <div class="page-header header-filter header-small" data-parallax="true" style="background-image: url(assets/img/endo/faqhero.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 ml-auto mr-auto text-center">
+                    <h1 class="title">FAQs</h1>
+                    <h4>Frequently Asked Questions offers you an opportunity to explore common queries and solutions on a variety of topics, from troubleshooting, to general guidance, and more. </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main main-raised">
+
+        <div class="section collaboration">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <h3 class="title text-center">FAQs</h3>
+                    <div class="col-md-4 mx-auto mt-5 mb-4">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="material-icons">search</i>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Search keywords" name="quicksearch" id="quicksearch">
+                        </div>
+                    </div>
+                    <div class="col-md-12 mx-auto mt-5 mb-4">
+
+
+                        <div class="filters">
+
+                            <ul class="nav nav-pills nav-pills-primary justify-content-center button-list" data-filter-group="group-1">
+                                <li class="nav-item"><button class="nav-link filter-btn active" data-filter="*">All</button></li>
+                                <li class="nav-item"><button class="nav-link filter-btn" data-filter=".general">General</button></li>
+                                <li class="nav-item"><button class="nav-link filter-btn" data-filter=".ask-it">Ask IT</button></li>
+                                <li class="nav-item"><button class="nav-link filter-btn" data-filter=".skype-for-business">Skype For Business</button></li>
+                                <li class="nav-item"><button class="nav-link filter-btn" data-filter=".webex">WebEx</button></li>
+                                <li class="nav-item"><button class="nav-link filter-btn" data-filter=".sharepoint">SharePoint</button></li>
+                                <li class="nav-item"><button class="nav-link filter-btn" data-filter=".intercall">Teleconference</button></li>
+                                <li class="nav-item"><button class="nav-link filter-btn" data-filter=".cisco-tools">Desk/Conference Phone</button></li> 
+                                <li class="nav-item"><button class="nav-link filter-btn" data-filter=".outlook">Outlook</button></li>
+                                <li class="nav-item"><button class="nav-link filter-btn" data-filter=".word">Word</button></li>
+                                <li class="nav-item"><button class="nav-link filter-btn" data-filter=".powerpoint">PowerPoint</button></li>
+                                <li class="nav-item"><button class="nav-link filter-btn" data-filter=".excel">Excel</button></li>
+                            </ul>
+
+                        </div>
+
+
+                        <!-- <div class="float-right">
+                            
+                        </div> -->
+
+                    </div>
+
+                    <div>
+                        <!-- <div class="title">
+                                <h3>Collapse</h3>
+                            </div> -->
+                        <div class="row" id="collapse">
+                            <div class="col-md-12">
+                                <div id="accordion" role="tablist">
+
+                                    <!-- <div class="card card-collapse filter-item general">
+                                        <div class="card-header" role="tab" id="headingOne">
+                                            <h5 class="mb-0">
+                                                <a data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                    FAQ for General
+                                                    <i class="material-icons">keyboard_arrow_down</i>
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+                                            <div class="card-body">
+                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card card-collapse filter-item ask-it">
+                                        <div class="card-header" role="tab" id="headingTwo">
+                                            <h5 class="mb-0">
+                                                <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                    FAQ for Ask IT
+                                                    <i class="material-icons">keyboard_arrow_down</i>
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+                                            <div class="card-body">
+                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card card-collapse filter-item skype-for-business">
+                                        <div class="card-header" role="tab" id="headingThree">
+                                            <h5 class="mb-0">
+                                                <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                    FAQ for Skype
+                                                    <i class="material-icons">keyboard_arrow_down</i>
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+                                            <div class="card-body">
+                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card card-collapse filter-item webex">
+                                        <div class="card-header" role="tab" id="headingFour">
+                                            <h5 class="mb-0">
+                                                <a class="collapsed" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                    FAQ for WebEx
+                                                    <i class="material-icons">keyboard_arrow_down</i>
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordion">
+                                            <div class="card-body">
+                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card card-collapse filter-item sharepoint">
+                                        <div class="card-header" role="tab" id="headingFive">
+                                            <h5 class="mb-0">
+                                                <a class="collapsed" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                                    FAQ for SharePoint
+                                                    <i class="material-icons">keyboard_arrow_down</i>
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion">
+                                            <div class="card-body">
+                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                            </div>
+                                        </div>
+                                    </div>
+                                   
+                                    <div class="card card-collapse filter-item intercall">
+                                        <div class="card-header" role="tab" id="headingSix">
+                                            <h5 class="mb-0">
+                                                <a class="collapsed" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                                    FAQ for InterCall
+                                                    <i class="material-icons">keyboard_arrow_down</i>
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix" data-parent="#accordion">
+                                            <div class="card-body">
+                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card card-collapse filter-item cisco-tools">
+                                        <div class="card-header" role="tab" id="headingSeven">
+                                            <h5 class="mb-0">
+                                                <a class="collapsed" data-toggle="collapse" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                                    FAQ for Cisco Tools
+                                                    <i class="material-icons">keyboard_arrow_down</i>
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseSeven" class="collapse" role="tabpanel" aria-labelledby="headingSeven" data-parent="#accordion">
+                                            <div class="card-body">
+                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card card-collapse filter-item outlook">
+                                        <div class="card-header" role="tab" id="headingEight">
+                                            <h5 class="mb-0">
+                                                <a class="collapsed" data-toggle="collapse" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                                    FAQ for Outlook
+                                                    <i class="material-icons">keyboard_arrow_down</i>
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseEight" class="collapse" role="tabpanel" aria-labelledby="headingEight" data-parent="#accordion">
+                                            <div class="card-body">
+                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card card-collapse filter-item word">
+                                        <div class="card-header" role="tab" id="headingNine">
+                                            <h5 class="mb-0">
+                                                <a class="collapsed" data-toggle="collapse" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                                    FAQ for Word
+                                                    <i class="material-icons">keyboard_arrow_down</i>
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseNine" class="collapse" role="tabpanel" aria-labelledby="headingNine" data-parent="#accordion">
+                                            <div class="card-body">
+                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card card-collapse filter-item powerpoint">
+                                        <div class="card-header" role="tab" id="headingTen">
+                                            <h5 class="mb-0">
+                                                <a class="collapsed" data-toggle="collapse" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                                    FAQ for PowerPoint
+                                                    <i class="material-icons">keyboard_arrow_down</i>
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseTen" class="collapse" role="tabpanel" aria-labelledby="headingTen" data-parent="#accordion">
+                                            <div class="card-body">
+                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card card-collapse filter-item excel">
+                                        <div class="card-header" role="tab" id="headingEleven">
+                                            <h5 class="mb-0">
+                                                <a class="collapsed" data-toggle="collapse" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                                                    FAQ for Excel
+                                                    <i class="material-icons">keyboard_arrow_down</i>
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseEleven" class="collapse" role="tabpanel" aria-labelledby="headingEleven" data-parent="#accordion">
+                                            <div class="card-body">
+                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                            </div>
+                                        </div>
+                                    </div> -->
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+    </div>
+
+
+    <div class="modal fade" id="usecase" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-notice" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Labore officia elit minim reprehenderit </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="material-icons">clear</i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="instruction">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <strong>1. Register</strong>
+                                <p>Lorem ipsum, dolor sit amet <a href="#">aperiam nam</a>. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit ipsum dolores excepturi ad, consectetur quod.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="instruction">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <strong>2. Apply</strong>
+                                <p>Lorem ipsum, dolor sit amet <a href="#">aperiam nam</a>. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit ipsum dolores excepturi ad, consectetur quod.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim officia voluptatum neque voluptas ut harum, reiciendis asperiores ad consequatur velit rerum dolorum </p>
+                </div>
+                <div class="modal-footer text-center">
+                    <button type="button" class="btn btn-info btn-round" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="s_usecase" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-notice" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Labore officia elit minim reprehenderit </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="material-icons">clear</i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="instruction">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <strong>1. Register</strong>
+                                <p>Lorem ipsum, dolor sit amet <a href="#">aperiam nam</a>. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit ipsum dolores excepturi ad, consectetur quod.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="instruction">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <strong>2. Apply</strong>
+                                <p>Lorem ipsum, dolor sit amet <a href="#">aperiam nam</a>. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit ipsum dolores excepturi ad, consectetur quod.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim officia voluptatum neque voluptas ut harum, reiciendis asperiores ad consequatur velit rerum dolorum </p>
+                </div>
+                <div class="modal-footer text-center">
+                    <button type="button" class="btn btn-info btn-round" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="sp_usecase" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-notice" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Labore officia elit minim reprehenderit </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="material-icons">clear</i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="instruction">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <strong>1. Register</strong>
+                                <p>Lorem ipsum, dolor sit amet <a href="#">aperiam nam</a>. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit ipsum dolores excepturi ad, consectetur quod.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="instruction">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <strong>2. Apply</strong>
+                                <p>Lorem ipsum, dolor sit amet <a href="#">aperiam nam</a>. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit ipsum dolores excepturi ad, consectetur quod.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim officia voluptatum neque voluptas ut harum, reiciendis asperiores ad consequatur velit rerum dolorum </p>
+                </div>
+                <div class="modal-footer text-center">
+                    <button type="button" class="btn btn-info btn-round" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="i_usecase" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-notice" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Labore officia elit minim reprehenderit </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="material-icons">clear</i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="instruction">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <strong>1. Register</strong>
+                                <p>Lorem ipsum, dolor sit amet <a href="#">aperiam nam</a>. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit ipsum dolores excepturi ad, consectetur quod.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="instruction">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <strong>2. Apply</strong>
+                                <p>Lorem ipsum, dolor sit amet <a href="#">aperiam nam</a>. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit ipsum dolores excepturi ad, consectetur quod.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim officia voluptatum neque voluptas ut harum, reiciendis asperiores ad consequatur velit rerum dolorum </p>
+                </div>
+                <div class="modal-footer text-center">
+                    <button type="button" class="btn btn-info btn-round" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="c_usecase" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-notice" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Labore officia elit minim reprehenderit </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="material-icons">clear</i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="instruction">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <strong>1. Register</strong>
+                                <p>Lorem ipsum, dolor sit amet <a href="#">aperiam nam</a>. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit ipsum dolores excepturi ad, consectetur quod.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="instruction">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <strong>2. Apply</strong>
+                                <p>Lorem ipsum, dolor sit amet <a href="#">aperiam nam</a>. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit ipsum dolores excepturi ad, consectetur quod.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim officia voluptatum neque voluptas ut harum, reiciendis asperiores ad consequatur velit rerum dolorum </p>
+                </div>
+                <div class="modal-footer text-center">
+                    <button type="button" class="btn btn-info btn-round" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="productivity-tool" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="material-icons">clear</i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-link">Nice Button</button>
+                    <button type="button" class="btn btn-danger btn-link" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer" id="footer">
+        <!-- LOADS FROM _FOOTER.HTML -->
+    </footer>
+
+    <script src="assets/js/core/jquery.min.js"></script>
+    <script src="assets/js/plugins/jquery.SPServices-2014.02.js"></script>
+    <script src="assets/js/navs.js"></script>
+    <script src="assets/js/core/popper.min.js"></script>
+    <script src="assets/js/bootstrap-material-design.js"></script>
+    <script src="assets/assets-for-demo/js/modernizr.js"></script>
+    <script src="assets/js/material-kit.js?v=2.0.3"></script>
+    <script src="assets/assets-for-demo/js/material-kit-demo.js"></script>
+    <script src="assets/js/plugins/isotope.pkgd.min.js"></script>
+    <script src="assets/js/faq.js"></script>
+</body>
+
+</html>
